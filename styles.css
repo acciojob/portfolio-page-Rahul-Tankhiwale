@@ -1,17 +1,98 @@
-/* Your CSS Code here. */
-body{
-	font-family: "Oswald", sans-serif;
-	
+/* General Body Styling */
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #f8f9fa;
+    margin: 10;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
-img{
-	height:120px
+
+/* Profile Section */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #222;
 }
-h1{
-	text-align:center;
+
+img {
+    display: block;
+    margin: 15px auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #555;
 }
-section h2{
-	text-align:center;
+
+/* Paragraphs and Links */
+p {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
-section p{
-	text-transform:justify
+
+a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 8px 15px;
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+a:hover {
+    background-color: #005582;
+}
+
+/* Section Styling */
+section {
+    margin: 30px auto;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Skills Styling */
+#skills p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Project List */
+#projects ul {
+    object-fit: cover;
+    padding: 0;
+}
+
+#projects li {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+#projects p {
+    margin: 5px 0 15px 0;
+    font-size: 0.95rem;
+    color: #555;
 }
