@@ -1,2 +1,17 @@
-
 /* Your CSS Code here. */
+body{
+	font-family: "Oswald", sans-serif;
+	
+}
+img{
+	height:120px
+}
+h1{
+	text-align:center;
+}
+section h2{
+	text-align:center;
+}
+section p{
+	text-transform:justify
+}
